@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>NewsLetter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <div class="container">
+            <strong>NewsLetter</strong>
+            <button id="btn-tema" class="btn"> Alterar tema 🌙 </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="caixa">
+            <h1>Inscreva-se</h1>
+            <p>Receba Novidades Direto no seu e-mail. sem Spam</p>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome: ">
+
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email:">
+
+                <button type="submit" class="btn primario">Quero Receber</button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <small>&copy; NewsLetter - <span id="ano"></span></small>
+        </div>
+    </footer>
+</body>
+</html>
